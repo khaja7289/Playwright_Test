@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12923","login to webpage","chromium","Thu Jun 26 14:03:14 IST 2025","passed","Thu Jun 26 14:03:27 IST 2025","","userobject.spec.ts","",""
+"","14269","date picker","chromium","Thu Jun 26 14:03:27 IST 2025","passed","Thu Jun 26 14:03:41 IST 2025","","userobject.spec.ts","",""
+"","11582","navigate to date input feild @smoke","dev","Thu Jun 26 14:00:09 IST 2025","passed","Thu Jun 26 14:00:21 IST 2025","","userobject.spec.ts","",""
+"","0","Register the account @regression","chromium","Thu Jun 26 14:03:14 IST 2025","skipped","Thu Jun 26 14:03:14 IST 2025","","userobject.spec.ts","",""
+"","10914","use faker library for test data generation faker library","chromium","Thu Jun 26 14:03:41 IST 2025","passed","Thu Jun 26 14:03:52 IST 2025","","userobject.spec.ts","",""
+"","13456","navigate to date input feild @smoke","chromium","Thu Jun 26 14:03:00 IST 2025","passed","Thu Jun 26 14:03:14 IST 2025","","userobject.spec.ts","",""
