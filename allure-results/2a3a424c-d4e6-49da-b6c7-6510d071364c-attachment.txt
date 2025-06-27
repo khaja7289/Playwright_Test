@@ -1,3 +1,0 @@
-✅ Dropped item has class: red
-✅ Dropped item has class: green
-✅ Dropped item has class: blue
