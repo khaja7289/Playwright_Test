@@ -24,10 +24,23 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [['json', {outputFile:'Test-Result/Report_json.json'}],
+  reporter: [process.env.CI ? ["dot"] : ["list"],
+            [
+              "@argos-ci/playwright/reporter",
+              {
+                // Upload to Argos on CI only.
+                uploadToArgos: !!process.env.CI,
+
+                // Set your Argos token (required if not using GitHub Actions).
+                // token: "<YOUR-ARGOS-TOKEN>", not need for github we intergrated
+              },
+            ],
+            ['json', {outputFile:'Test-Result/Report_json.json'}],
             ['junit', {outputFile:'Test-Result/Report_junit.xml'}],
             ["allure-playwright"],
             ["html"]
+
+            
             ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -36,7 +49,8 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    video : 'on'
+    video : 'on',
+    screenshot: "only-on-failure",
   },
   
   /* Configure projects for major browsers */
