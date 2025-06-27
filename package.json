@@ -6,7 +6,8 @@
     "ng": "ng",
     "start": "ng serve",
     "test-ui": "npx playwright test userobject.spec.ts --project=chromium --headed",
-    "test": "npx playwright test --project=chromium"
+    "test": "npx playwright test --project=chromium",
+    "test_userobject": "npx playwright test userobject.spec.ts --project=chromium"
   },
   "keywords": [],
   "author": "",
