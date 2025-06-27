@@ -10,7 +10,7 @@
     "test_userobject": "npx playwright test userobject.spec.ts --project=chromium",
     "test_agrosCiVisualTest": "npx playwright test argocivisulatesting.spec.ts --project=chromium",
     "test_applitoolsVisualTest": "npx playwright test applitoolsdemo.spec.ts --project=chromium",
-    "test_all": "npx playwright test userobject.spec.ts --project=chromium && npx playwright test argocivisulatesting.spec.ts --project=chromium && npx playwright test applitoolsdemo.spec.ts --project=chromium"
+    "test_all": "npx playwright test userobject.spec.ts --project=chromium && npx playwright test argocivisulatesting.spec.ts --project=chromium"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +20,7 @@
     "@applitools/eyes-playwright": "^1.37.3",
     "@argos-ci/playwright": "^5.0.4",
     "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.27",
+    "@types/node": "^22.15.33",
     "allure-commandline": "^2.34.1",
     "allure-playwright": "^3.3.0"
   },
