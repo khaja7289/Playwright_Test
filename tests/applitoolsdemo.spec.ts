@@ -1,8 +1,10 @@
-import test, {Page,expect} from '@playwright/test';
+import { test ,expect} from '@applitools/eyes-playwright/fixture';
 
-test('date picker', async({page})=>{
+test('date picker', async({page,eyes})=>{
     await page.goto('https://practice.expandtesting.com/')
+    await eyes.check('HomePage')
     await page.goto('https://practice.expandtesting.com/inputs')
+    await eyes.check('InputPage')
     const date = new Date()
     const futureDate = new Date(date);
     futureDate.setDate(date.getDate() + 700);
@@ -14,4 +16,5 @@ test('date picker', async({page})=>{
     await page.getByRole('button', { name: 'Display Inputs' }).click();
     const datavalidation = await page.locator('#output-date').textContent()
     expect(datavalidation).toEqual(formattedDate)
+    await eyes.check('ResultPage')
 })

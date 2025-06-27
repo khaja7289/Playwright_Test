@@ -16,13 +16,9 @@ jobs:
     - name: Install dependencies
       run: npm ci --force
     - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
+      run: npx playwright install --with-deps --force
     - name: Run Playwright tests
-      run: npm run test_userobject
-    - name: Run ArgosCi visual Testing
-      run : npm run test_agrosCiVisualTest
-    - name: Run Aapplitools visual Testing
-      run : npm run test_applitoolsVisualTest
+      run: npm run test_all
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:

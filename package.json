@@ -9,7 +9,8 @@
     "test": "npx playwright test --project=chromium",
     "test_userobject": "npx playwright test userobject.spec.ts --project=chromium",
     "test_agrosCiVisualTest": "npx playwright test argocivisulatesting.spec.ts --project=chromium",
-    "test_applitoolsVisualTest": "npx playwright test applitoolsdemo.spec.ts --project=chromium"
+    "test_applitoolsVisualTest": "npx playwright test applitoolsdemo.spec.ts --project=chromium",
+    "test_all": "npx playwright test userobject.spec.ts --project=chromium && npx playwright test argocivisulatesting.spec.ts --project=chromium && npx playwright test applitoolsdemo.spec.ts --project=chromium"
   },
   "keywords": [],
   "author": "",
