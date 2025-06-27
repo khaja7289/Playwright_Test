@@ -21,6 +21,8 @@ jobs:
       run: npm run test_userobject
     - name: Run ArgosCi visual Testing
       run : npm run test_agrosCiVisualTest
+    - name: Run Aapplitools visual Testing
+      run : npm run test_applitoolsVisualTest
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
