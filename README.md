@@ -76,3 +76,13 @@ npx playwright test --project=chromium --trace on
 
     Valiadet Throght screenshot:
     await expect(page.locator('#col-md-4')).toHaveScreenshot()
+
+
+Used Tools:
+visula testing : applitools,Argo Ci
+sorce code: github
+devlopment: vs code
+CI integration: argo ci workflow yml file
+Reportiong: html,allure report
+execution : docker continer
+practice application: https://practice.expandtesting.com/
