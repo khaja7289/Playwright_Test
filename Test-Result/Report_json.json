@@ -169,18 +169,18 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.52.0",
-    "workers": 4,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
     {
-      "title": "argocivisulatesting.spec.ts",
-      "file": "argocivisulatesting.spec.ts",
+      "title": "UiLocators.spec.ts",
+      "file": "UiLocators.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "date picker",
+          "title": "Select and validate all dropdown values from #country",
           "ok": true,
           "tags": [],
           "tests": [
@@ -188,69 +188,783 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
+              "projectId": "dev",
+              "projectName": "dev",
               "results": [
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 13971,
+                  "duration": 17482,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "2027-05-28\n"
+                      "text": "Selected and validated: AF\n"
+                    },
+                    {
+                      "text": "Selected and validated: AX\n"
+                    },
+                    {
+                      "text": "Selected and validated: AL\n"
+                    },
+                    {
+                      "text": "Selected and validated: DZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: AS\n"
+                    },
+                    {
+                      "text": "Selected and validated: AD\n"
+                    },
+                    {
+                      "text": "Selected and validated: AO\n"
+                    },
+                    {
+                      "text": "Selected and validated: AI\n"
+                    },
+                    {
+                      "text": "Selected and validated: AQ\n"
+                    },
+                    {
+                      "text": "Selected and validated: AG\n"
+                    },
+                    {
+                      "text": "Selected and validated: AR\n"
+                    },
+                    {
+                      "text": "Selected and validated: AM\n"
+                    },
+                    {
+                      "text": "Selected and validated: AW\n"
+                    },
+                    {
+                      "text": "Selected and validated: AU\n"
+                    },
+                    {
+                      "text": "Selected and validated: AT\n"
+                    },
+                    {
+                      "text": "Selected and validated: AZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: BS\n"
+                    },
+                    {
+                      "text": "Selected and validated: BH\n"
+                    },
+                    {
+                      "text": "Selected and validated: BD\n"
+                    },
+                    {
+                      "text": "Selected and validated: BB\n"
+                    },
+                    {
+                      "text": "Selected and validated: BY\n"
+                    },
+                    {
+                      "text": "Selected and validated: BE\n"
+                    },
+                    {
+                      "text": "Selected and validated: BZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: BJ\n"
+                    },
+                    {
+                      "text": "Selected and validated: BM\n"
+                    },
+                    {
+                      "text": "Selected and validated: BT\n"
+                    },
+                    {
+                      "text": "Selected and validated: BO\n"
+                    },
+                    {
+                      "text": "Selected and validated: BQ\n"
+                    },
+                    {
+                      "text": "Selected and validated: BA\n"
+                    },
+                    {
+                      "text": "Selected and validated: BW\n"
+                    },
+                    {
+                      "text": "Selected and validated: BV\n"
+                    },
+                    {
+                      "text": "Selected and validated: BR\n"
+                    },
+                    {
+                      "text": "Selected and validated: IO\n"
+                    },
+                    {
+                      "text": "Selected and validated: BN\n"
+                    },
+                    {
+                      "text": "Selected and validated: BG\n"
+                    },
+                    {
+                      "text": "Selected and validated: BF\n"
+                    },
+                    {
+                      "text": "Selected and validated: BI\n"
+                    },
+                    {
+                      "text": "Selected and validated: KH\n"
+                    },
+                    {
+                      "text": "Selected and validated: CM\n"
+                    },
+                    {
+                      "text": "Selected and validated: CA\n"
+                    },
+                    {
+                      "text": "Selected and validated: CV\n"
+                    },
+                    {
+                      "text": "Selected and validated: KY\n"
+                    },
+                    {
+                      "text": "Selected and validated: CF\n"
+                    },
+                    {
+                      "text": "Selected and validated: TD\n"
+                    },
+                    {
+                      "text": "Selected and validated: CL\n"
+                    },
+                    {
+                      "text": "Selected and validated: CN\n"
+                    },
+                    {
+                      "text": "Selected and validated: CX\n"
+                    },
+                    {
+                      "text": "Selected and validated: CC\n"
+                    },
+                    {
+                      "text": "Selected and validated: CO\n"
+                    },
+                    {
+                      "text": "Selected and validated: KM\n"
+                    },
+                    {
+                      "text": "Selected and validated: CG\n"
+                    },
+                    {
+                      "text": "Selected and validated: CD\n"
+                    },
+                    {
+                      "text": "Selected and validated: CK\n"
+                    },
+                    {
+                      "text": "Selected and validated: CR\n"
+                    },
+                    {
+                      "text": "Selected and validated: CI\n"
+                    },
+                    {
+                      "text": "Selected and validated: HR\n"
+                    },
+                    {
+                      "text": "Selected and validated: CU\n"
+                    },
+                    {
+                      "text": "Selected and validated: CW\n"
+                    },
+                    {
+                      "text": "Selected and validated: CY\n"
+                    },
+                    {
+                      "text": "Selected and validated: CZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: DK\n"
+                    },
+                    {
+                      "text": "Selected and validated: DJ\n"
+                    },
+                    {
+                      "text": "Selected and validated: DM\n"
+                    },
+                    {
+                      "text": "Selected and validated: DO\n"
+                    },
+                    {
+                      "text": "Selected and validated: EC\n"
+                    },
+                    {
+                      "text": "Selected and validated: EG\n"
+                    },
+                    {
+                      "text": "Selected and validated: SV\n"
+                    },
+                    {
+                      "text": "Selected and validated: GQ\n"
+                    },
+                    {
+                      "text": "Selected and validated: ER\n"
+                    },
+                    {
+                      "text": "Selected and validated: EE\n"
+                    },
+                    {
+                      "text": "Selected and validated: ET\n"
+                    },
+                    {
+                      "text": "Selected and validated: FK\n"
+                    },
+                    {
+                      "text": "Selected and validated: FO\n"
+                    },
+                    {
+                      "text": "Selected and validated: FJ\n"
+                    },
+                    {
+                      "text": "Selected and validated: FI\n"
+                    },
+                    {
+                      "text": "Selected and validated: FR\n"
+                    },
+                    {
+                      "text": "Selected and validated: GF\n"
+                    },
+                    {
+                      "text": "Selected and validated: PF\n"
+                    },
+                    {
+                      "text": "Selected and validated: TF\n"
+                    },
+                    {
+                      "text": "Selected and validated: GA\n"
+                    },
+                    {
+                      "text": "Selected and validated: GM\n"
+                    },
+                    {
+                      "text": "Selected and validated: GE\n"
+                    },
+                    {
+                      "text": "Selected and validated: DE\n"
+                    },
+                    {
+                      "text": "Selected and validated: GH\n"
+                    },
+                    {
+                      "text": "Selected and validated: GI\n"
+                    },
+                    {
+                      "text": "Selected and validated: GR\n"
+                    },
+                    {
+                      "text": "Selected and validated: GL\n"
+                    },
+                    {
+                      "text": "Selected and validated: GD\n"
+                    },
+                    {
+                      "text": "Selected and validated: GP\n"
+                    },
+                    {
+                      "text": "Selected and validated: GU\n"
+                    },
+                    {
+                      "text": "Selected and validated: GT\n"
+                    },
+                    {
+                      "text": "Selected and validated: GG\n"
+                    },
+                    {
+                      "text": "Selected and validated: GN\n"
+                    },
+                    {
+                      "text": "Selected and validated: GW\n"
+                    },
+                    {
+                      "text": "Selected and validated: GY\n"
+                    },
+                    {
+                      "text": "Selected and validated: HT\n"
+                    },
+                    {
+                      "text": "Selected and validated: HM\n"
+                    },
+                    {
+                      "text": "Selected and validated: VA\n"
+                    },
+                    {
+                      "text": "Selected and validated: HN\n"
+                    },
+                    {
+                      "text": "Selected and validated: HK\n"
+                    },
+                    {
+                      "text": "Selected and validated: HU\n"
+                    },
+                    {
+                      "text": "Selected and validated: IS\n"
+                    },
+                    {
+                      "text": "Selected and validated: IN\n"
+                    },
+                    {
+                      "text": "Selected and validated: ID\n"
+                    },
+                    {
+                      "text": "Selected and validated: IR\n"
+                    },
+                    {
+                      "text": "Selected and validated: IQ\n"
+                    },
+                    {
+                      "text": "Selected and validated: IE\n"
+                    },
+                    {
+                      "text": "Selected and validated: IM\n"
+                    },
+                    {
+                      "text": "Selected and validated: IT\n"
+                    },
+                    {
+                      "text": "Selected and validated: JM\n"
+                    },
+                    {
+                      "text": "Selected and validated: JP\n"
+                    },
+                    {
+                      "text": "Selected and validated: JE\n"
+                    },
+                    {
+                      "text": "Selected and validated: JO\n"
+                    },
+                    {
+                      "text": "Selected and validated: KZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: KE\n"
+                    },
+                    {
+                      "text": "Selected and validated: KI\n"
+                    },
+                    {
+                      "text": "Selected and validated: KP\n"
+                    },
+                    {
+                      "text": "Selected and validated: KR\n"
+                    },
+                    {
+                      "text": "Selected and validated: XK\n"
+                    },
+                    {
+                      "text": "Selected and validated: KW\n"
+                    },
+                    {
+                      "text": "Selected and validated: KG\n"
+                    },
+                    {
+                      "text": "Selected and validated: LA\n"
+                    },
+                    {
+                      "text": "Selected and validated: LV\n"
+                    },
+                    {
+                      "text": "Selected and validated: LB\n"
+                    },
+                    {
+                      "text": "Selected and validated: LS\n"
+                    },
+                    {
+                      "text": "Selected and validated: LR\n"
+                    },
+                    {
+                      "text": "Selected and validated: LY\n"
+                    },
+                    {
+                      "text": "Selected and validated: LI\n"
+                    },
+                    {
+                      "text": "Selected and validated: LT\n"
+                    },
+                    {
+                      "text": "Selected and validated: LU\n"
+                    },
+                    {
+                      "text": "Selected and validated: MO\n"
+                    },
+                    {
+                      "text": "Selected and validated: MK\n"
+                    },
+                    {
+                      "text": "Selected and validated: MG\n"
+                    },
+                    {
+                      "text": "Selected and validated: MW\n"
+                    },
+                    {
+                      "text": "Selected and validated: MY\n"
+                    },
+                    {
+                      "text": "Selected and validated: MV\n"
+                    },
+                    {
+                      "text": "Selected and validated: ML\n"
+                    },
+                    {
+                      "text": "Selected and validated: MT\n"
+                    },
+                    {
+                      "text": "Selected and validated: MH\n"
+                    },
+                    {
+                      "text": "Selected and validated: MQ\n"
+                    },
+                    {
+                      "text": "Selected and validated: MR\n"
+                    },
+                    {
+                      "text": "Selected and validated: MU\n"
+                    },
+                    {
+                      "text": "Selected and validated: YT\n"
+                    },
+                    {
+                      "text": "Selected and validated: MX\n"
+                    },
+                    {
+                      "text": "Selected and validated: FM\n"
+                    },
+                    {
+                      "text": "Selected and validated: MD\n"
+                    },
+                    {
+                      "text": "Selected and validated: MC\n"
+                    },
+                    {
+                      "text": "Selected and validated: MN\n"
+                    },
+                    {
+                      "text": "Selected and validated: ME\n"
+                    },
+                    {
+                      "text": "Selected and validated: MS\n"
+                    },
+                    {
+                      "text": "Selected and validated: MA\n"
+                    },
+                    {
+                      "text": "Selected and validated: MZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: MM\n"
+                    },
+                    {
+                      "text": "Selected and validated: NA\n"
+                    },
+                    {
+                      "text": "Selected and validated: NR\n"
+                    },
+                    {
+                      "text": "Selected and validated: NP\n"
+                    },
+                    {
+                      "text": "Selected and validated: NL\n"
+                    },
+                    {
+                      "text": "Selected and validated: AN\n"
+                    },
+                    {
+                      "text": "Selected and validated: NC\n"
+                    },
+                    {
+                      "text": "Selected and validated: NZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: NI\n"
+                    },
+                    {
+                      "text": "Selected and validated: NE\n"
+                    },
+                    {
+                      "text": "Selected and validated: NG\n"
+                    },
+                    {
+                      "text": "Selected and validated: NU\n"
+                    },
+                    {
+                      "text": "Selected and validated: NF\n"
+                    },
+                    {
+                      "text": "Selected and validated: MP\n"
+                    },
+                    {
+                      "text": "Selected and validated: NO\n"
+                    },
+                    {
+                      "text": "Selected and validated: OM\n"
+                    },
+                    {
+                      "text": "Selected and validated: PK\n"
+                    },
+                    {
+                      "text": "Selected and validated: PW\n"
+                    },
+                    {
+                      "text": "Selected and validated: PS\n"
+                    },
+                    {
+                      "text": "Selected and validated: PA\n"
+                    },
+                    {
+                      "text": "Selected and validated: PG\n"
+                    },
+                    {
+                      "text": "Selected and validated: PY\n"
+                    },
+                    {
+                      "text": "Selected and validated: PE\n"
+                    },
+                    {
+                      "text": "Selected and validated: PH\n"
+                    },
+                    {
+                      "text": "Selected and validated: PN\n"
+                    },
+                    {
+                      "text": "Selected and validated: PL\n"
+                    },
+                    {
+                      "text": "Selected and validated: PT\n"
+                    },
+                    {
+                      "text": "Selected and validated: PR\n"
+                    },
+                    {
+                      "text": "Selected and validated: QA\n"
+                    },
+                    {
+                      "text": "Selected and validated: RE\n"
+                    },
+                    {
+                      "text": "Selected and validated: RO\n"
+                    },
+                    {
+                      "text": "Selected and validated: RU\n"
+                    },
+                    {
+                      "text": "Selected and validated: RW\n"
+                    },
+                    {
+                      "text": "Selected and validated: BL\n"
+                    },
+                    {
+                      "text": "Selected and validated: SH\n"
+                    },
+                    {
+                      "text": "Selected and validated: KN\n"
+                    },
+                    {
+                      "text": "Selected and validated: LC\n"
+                    },
+                    {
+                      "text": "Selected and validated: MF\n"
+                    },
+                    {
+                      "text": "Selected and validated: PM\n"
+                    },
+                    {
+                      "text": "Selected and validated: VC\n"
+                    },
+                    {
+                      "text": "Selected and validated: WS\n"
+                    },
+                    {
+                      "text": "Selected and validated: SM\n"
+                    },
+                    {
+                      "text": "Selected and validated: ST\n"
+                    },
+                    {
+                      "text": "Selected and validated: SA\n"
+                    },
+                    {
+                      "text": "Selected and validated: SN\n"
+                    },
+                    {
+                      "text": "Selected and validated: RS\n"
+                    },
+                    {
+                      "text": "Selected and validated: CS\n"
+                    },
+                    {
+                      "text": "Selected and validated: SC\n"
+                    },
+                    {
+                      "text": "Selected and validated: SL\n"
+                    },
+                    {
+                      "text": "Selected and validated: SG\n"
+                    },
+                    {
+                      "text": "Selected and validated: SX\n"
+                    },
+                    {
+                      "text": "Selected and validated: SK\n"
+                    },
+                    {
+                      "text": "Selected and validated: SI\n"
+                    },
+                    {
+                      "text": "Selected and validated: SB\n"
+                    },
+                    {
+                      "text": "Selected and validated: SO\n"
+                    },
+                    {
+                      "text": "Selected and validated: ZA\n"
+                    },
+                    {
+                      "text": "Selected and validated: GS\n"
+                    },
+                    {
+                      "text": "Selected and validated: SS\n"
+                    },
+                    {
+                      "text": "Selected and validated: ES\n"
+                    },
+                    {
+                      "text": "Selected and validated: LK\n"
+                    },
+                    {
+                      "text": "Selected and validated: SD\n"
+                    },
+                    {
+                      "text": "Selected and validated: SR\n"
+                    },
+                    {
+                      "text": "Selected and validated: SJ\n"
+                    },
+                    {
+                      "text": "Selected and validated: SZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: SE\n"
+                    },
+                    {
+                      "text": "Selected and validated: CH\n"
+                    },
+                    {
+                      "text": "Selected and validated: SY\n"
+                    },
+                    {
+                      "text": "Selected and validated: TW\n"
+                    },
+                    {
+                      "text": "Selected and validated: TJ\n"
+                    },
+                    {
+                      "text": "Selected and validated: TZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: TH\n"
+                    },
+                    {
+                      "text": "Selected and validated: TL\n"
+                    },
+                    {
+                      "text": "Selected and validated: TG\n"
+                    },
+                    {
+                      "text": "Selected and validated: TK\n"
+                    },
+                    {
+                      "text": "Selected and validated: TO\n"
+                    },
+                    {
+                      "text": "Selected and validated: TT\n"
+                    },
+                    {
+                      "text": "Selected and validated: TN\n"
+                    },
+                    {
+                      "text": "Selected and validated: TR\n"
+                    },
+                    {
+                      "text": "Selected and validated: TM\n"
+                    },
+                    {
+                      "text": "Selected and validated: TC\n"
+                    },
+                    {
+                      "text": "Selected and validated: TV\n"
+                    },
+                    {
+                      "text": "Selected and validated: UG\n"
+                    },
+                    {
+                      "text": "Selected and validated: UA\n"
+                    },
+                    {
+                      "text": "Selected and validated: AE\n"
+                    },
+                    {
+                      "text": "Selected and validated: GB\n"
+                    },
+                    {
+                      "text": "Selected and validated: US\n"
+                    },
+                    {
+                      "text": "Selected and validated: UM\n"
+                    },
+                    {
+                      "text": "Selected and validated: UY\n"
+                    },
+                    {
+                      "text": "Selected and validated: UZ\n"
+                    },
+                    {
+                      "text": "Selected and validated: VU\n"
+                    },
+                    {
+                      "text": "Selected and validated: VE\n"
+                    },
+                    {
+                      "text": "Selected and validated: VN\n"
+                    },
+                    {
+                      "text": "Selected and validated: VG\n"
+                    },
+                    {
+                      "text": "Selected and validated: VI\n"
+                    },
+                    {
+                      "text": "Selected and validated: WF\n"
+                    },
+                    {
+                      "text": "Selected and validated: EH\n"
+                    },
+                    {
+                      "text": "Selected and validated: YE\n"
+                    },
+                    {
+                      "text": "Selected and validated: ZM\n"
+                    },
+                    {
+                      "text": "Selected and validated: ZW\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-27T11:49:44.839Z",
+                  "startTime": "2025-07-03T12:10:46.504Z",
                   "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "argos/metadata___chromium/HomePage",
-                      "contentType": "application/json",
-                      "path": "C:\\Users\\10738962\\Desktop\\Git_Repo\\Playwright_Test\\test-results\\argocivisulatesting-date-picker-chromium\\attachments\\argos-metadata-chromium-HomePage-39522878ae2c546fecf93d4f478fc46a35460b56.json"
-                    },
-                    {
-                      "name": "argos/screenshot___chromium/HomePage",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\10738962\\Desktop\\Git_Repo\\Playwright_Test\\test-results\\argocivisulatesting-date-picker-chromium\\attachments\\argos-screenshot-chromium-HomePage-9a9d637093150fe2181145edda89ea2a51bab791.png"
-                    },
-                    {
-                      "name": "argos/screenshot___chromium/Validation Page",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\10738962\\Desktop\\Git_Repo\\Playwright_Test\\test-results\\argocivisulatesting-date-picker-chromium\\attachments\\argos-screenshot-chromium-Validation-Page-f22f6319390089f23b9b8d8dbabe18b9685239db.png"
-                    },
-                    {
-                      "name": "argos/metadata___chromium/Validation Page",
-                      "contentType": "application/json",
-                      "path": "C:\\Users\\10738962\\Desktop\\Git_Repo\\Playwright_Test\\test-results\\argocivisulatesting-date-picker-chromium\\attachments\\argos-metadata-chromium-Validation-Page-364cdd9d33736671fa4071ac7896037efabc6173.json"
-                    },
-                    {
-                      "name": "argos/screenshot___chromium/Resultpage Page",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\10738962\\Desktop\\Git_Repo\\Playwright_Test\\test-results\\argocivisulatesting-date-picker-chromium\\attachments\\argos-screenshot-chromium-Resultpage-Page-85b828d643294c953d3ff30450e9c1a9551ae58a.png"
-                    },
-                    {
-                      "name": "argos/metadata___chromium/Resultpage Page",
-                      "contentType": "application/json",
-                      "path": "C:\\Users\\10738962\\Desktop\\Git_Repo\\Playwright_Test\\test-results\\argocivisulatesting-date-picker-chromium\\attachments\\argos-metadata-chromium-Resultpage-Page-27f5655d3406c1e89362b52c6ec2a0ae845f771b.json"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\10738962\\Desktop\\Git_Repo\\Playwright_Test\\test-results\\argocivisulatesting-date-picker-chromium\\video.webm"
-                    }
-                  ]
+                  "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "ea88eba676f0e07c1ba2-e7f9425e25869456d762",
-          "file": "argocivisulatesting.spec.ts",
-          "line": 5,
+          "id": "b6369b24e57a5276b9e5-664339ab8f0cc053813c",
+          "file": "UiLocators.spec.ts",
+          "line": 66,
           "column": 5
         }
       ]
@@ -258,8 +972,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-27T11:49:44.059Z",
-    "duration": 15200.806999999999,
+    "startTime": "2025-07-03T12:10:44.390Z",
+    "duration": 20127.845,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

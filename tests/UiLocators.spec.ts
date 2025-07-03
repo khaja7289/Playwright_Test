@@ -62,6 +62,29 @@ test('Check Boxes', async ({page})=>{
 
 
 
+
+test('Select and validate all dropdown values from #country', async ({ page }) => {
+  await page.goto('https://practice.expandtesting.com/dropdown'); 
+
+  const dropdownSelector = '#country';
+  const options = await page.$$eval(`${dropdownSelector} option`, options =>
+    options
+      .map(option => (option as HTMLOptionElement).value)
+      .filter(value => value !== '')
+  );
+
+  for (const value of options) {
+    await page.selectOption(dropdownSelector, value);
+    const selectedValue = await page.$eval(dropdownSelector, el => {
+      return (el as HTMLSelectElement).value;
+    });
+    expect(selectedValue).toBe(value);
+    console.log(`Selected and validated: ${value}`);
+  }
+});
+    
+    
+
 // test('Dropdown Selection and Validation', async ({ page }) => {
 //     await page.goto('https://practice.expandtesting.com/dropdown');
 //     // await page.locator('#dropdown').click();
